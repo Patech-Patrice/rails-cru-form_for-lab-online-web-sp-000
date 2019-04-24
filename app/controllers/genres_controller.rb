@@ -31,4 +31,4 @@ class GenresController < ApplicationController
     params.require(:genre).permit(*args)
   end 
 end
-end
+
